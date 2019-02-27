@@ -105,7 +105,7 @@ command depends on your present working directory), then please note that contex
    that is required when implemeting an interface in a separate file.
    
 1. Now, without modifying the `Student` class, update the `Driver` class to clearly 
-   demo the following using lambda expressions (please stage commit after each):
+   demo the following using lambda expressions (please stage and commit after each):
    1. Find and print the max `Student` in the `students` array according to GPA.
    1. Add references to `Course` objects to the `courses` array with different `prefix` values, then 
       sort the `courses` array by `prefix`.

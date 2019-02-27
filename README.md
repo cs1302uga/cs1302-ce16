@@ -85,7 +85,39 @@ command depends on your present working directory), then please note that contex
    methods in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
    In your notes, indicate the potential type arguments (replacements) for `T` for each method.
 
+1. The methods you examined in the previous step make use of the `Comparator<T>` interface
+   to facilitate internal comparisons when needed. Unlike the overloads you examined in the
+   first checkpoint, these "comparator" versions are more flexible as they allow the user
+   of the method to specify their preferred induced ordering on the fly __without modifying the classes__
+   of the objects being sorted. Isn't that cool?
    
+1. Without modifying the `Student` class, update the `Driver` class to sort the
+   `students` array by each student's name. For this step, explicitly create a
+   `NameComparator` class that properly implements `Comparator<Student>`. Your
+   call to `sort` in the driver should use an objet of this class for its
+   comparator.
+   
+1. Stage and commit all changes.
+
+**CHECKPOINT**
+   
+1. Creating a separate comparator class is definitely useful if the comparator logic is
+   complicated and/or if you plan to use the comparator often. However, if the logic is
+   simple, then lambda expressions are preferrable because they allow you to focus on the
+   logic of the interface method itself and not all the boilerplate (i.e., the extra stuff) 
+   that is required when implemeting an interface in a separate file.
+   
+1. Now, without modifying the `Student` class, update the `Driver` class to clearly 
+   demo the following (please stage commit after each):
+   1. Find and print the max `Student` in the `students` array according to GPA.
+   1. Add references to `Course` objects to the `courses` array with different prefixes, then 
+      sort the `courses` array by `prefix`.
+   1. Take the `courses` array sorted in the previous sub-step and sort them by `number`.
+   1. Find and print the max `Student` in the `students` array according to the second
+      character in their name.
+   
+1. Stage and commit all changes.
+
 **CHECKPOINT**
 
 <hr/>

@@ -1,7 +1,7 @@
 
 # cs1302-ce16 Gnarly to the Max
 
-> To my mind, the life of a *lambda** is no less precious than that of a human being.
+> To my mind, the life of a *lambda* is no less precious than that of a human being.
 > **--Dr. Supa' Mike, trying to quote Mahatma Gandhi.**
 
 This class exercise explores functional interfaces and lambda expressions in

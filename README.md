@@ -40,7 +40,7 @@ command depends on your present working directory), then please note that contex
 
 ### Exercise Steps
 
-1. There is a `cs1302-ce15.jar` in the `lib` subdirectory. 
+1. There is a `cs1302-ce16.jar` in the `lib` subdirectory. 
    The API documentation for the compiled code contained in this
    file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/index.html).
 

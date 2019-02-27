@@ -61,8 +61,13 @@ command depends on your present working directory), then please note that contex
    using the `sort` methods that the exercise had you inspect in the previous step?
    Try it! For each of the four possibilities, indicate
    a guess in your notes as to whether or not it will work. Then, try each possibility
-   independently to confirm your guess. If a possiblility works, then add code to the `Driver`
-   class that demos how it works in a meaningful way. Here is a table to help you keep track of the
+   independently to confirm your guess. 
+   
+   * If a possiblility **does work**, then add code to the `Driver` class that demos how it 
+     works in a meaningful way. 
+   * If a possiblility **does NOT work**, then note why. 
+   
+   Here is a table to help you keep track of the
    different combinations.
    
    | Class     | `sort(T[])` | `max(T[])` |
@@ -74,6 +79,8 @@ command depends on your present working directory), then please note that contex
    anyone who is reading it can understand what is going on. The scenarios that you demo should not 
    be trivial. In most cases, this will involve using some of your other list methods in conjunction
    with the ones that are requred below.
+   
+1.    
    
 **CHECKPOINT**
 

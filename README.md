@@ -51,10 +51,7 @@ command depends on your present working directory), then please note that contex
    and 
    [`ArrayUtility.max(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/cs1302/util/ArrayUtility.html#max-T:A-)
    methods in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
-   In your notes, answer the following for each method:
-   
-   1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
-      What requirement must that type satisfy?
+   In your notes, indicate the potential type arguments (replacements) for `T` for each method.
    
 1. Inspect the `Student`, `Course`, and `Driver` classes provided under the `src` directory.
    As written, can you sort and find a maximal element of the `students` and `courses` arrays 

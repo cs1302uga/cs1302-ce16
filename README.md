@@ -1,5 +1,5 @@
 
-# cs1302-ce16 Genericize is still a Real Word
+# cs1302-ce16 Gnarly to the Max
 
 > (Sends Dancing Hot Dog Meme)
 > Hotdogs are generic.

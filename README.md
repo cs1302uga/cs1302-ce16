@@ -43,9 +43,22 @@ command depends on your present working directory), then please note that contex
 
 ### Exercise Steps
 
-1. 
+1. There is a `cs1302-ce15.jar` in the `lib` subdirectory. 
+   The API documentation for the compiled code contained in this
+   file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/index.html).
+
+1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
+   and [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
+   methods in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
+   In your notes, answer the following:
    
-1.    
+   1. What is the complete signature for this method?
+   1. What is the datatype and role of each method parameter?
+   1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
+      What requirement must that type satisfy?
+   1. What other questions do you have related to this method?
+   
+1. 
 
 **CHECKPOINT**
 

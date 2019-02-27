@@ -48,18 +48,33 @@ command depends on your present working directory), then please note that contex
    file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/index.html).
 
 1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
-   and [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
+   and 
+   [`ArrayUtility.max(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/cs1302/util/ArrayUtility.html#max-T:A-)
    methods in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
-   In your notes, answer the following:
+   In your notes, answer the following for each method:
    
-   1. What is the complete signature for this method?
-   1. What is the datatype and role of each method parameter?
    1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
       What requirement must that type satisfy?
-   1. What other questions do you have related to this method?
    
-1. 
-
+1. Inspect the `Student`, `Course`, and `Driver` classes provided under the `src` directory.
+   As written, can you sort and find a maximal element of the `students` and `courses` arrays 
+   using the `sort` methods that the exercise had you inspect in the previous step?
+   Try it! For each of the four possibilities, indicate
+   a guess in your notes as to whether or not it will work. Then, try each possibility
+   independently to confirm your guess. If a possiblility works, then add code to the `Driver`
+   class that demos how it works in a meaningful way. Here is a table to help you keep track of the
+   different combinations.
+   
+   | Class     | `sort(T[])` | `max(T[])` |
+   |-----------|-------------|------------|
+   | `Course`  |
+   | `Student` |
+   
+   What is meaningful? You need to make the code, documentation, and the printout clear such that 
+   anyone who is reading it can understand what is going on. The scenarios that you demo should not 
+   be trivial. In most cases, this will involve using some of your other list methods in conjunction
+   with the ones that are requred below.
+   
 **CHECKPOINT**
 
 <hr/>

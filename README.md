@@ -115,6 +115,7 @@ command depends on your present working directory), then please note that contex
    1. Take the `courses` array sorted in the previous sub-step and sort them by `number`.
    1. Find and print the max `Student` in the `students` array according to the second
       character in their name.
+   1. Something cool / interesting that hasn't been mentioned.
    
 1. Stage and commit all changes.
 

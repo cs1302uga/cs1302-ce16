@@ -110,7 +110,7 @@ command depends on your present working directory), then please note that contex
 1. Now, without modifying the `Student` class, update the `Driver` class to clearly 
    demo the following (please stage commit after each):
    1. Find and print the max `Student` in the `students` array according to GPA.
-   1. Add references to `Course` objects to the `courses` array with different prefixes, then 
+   1. Add references to `Course` objects to the `courses` array with different `prefix` values, then 
       sort the `courses` array by `prefix`.
    1. Take the `courses` array sorted in the previous sub-step and sort them by `number`.
    1. Find and print the max `Student` in the `students` array according to the second

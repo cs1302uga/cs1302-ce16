@@ -12,7 +12,7 @@ It also provides a small demonstration of branching and merging using Git.
 
 ## References and Prerequisites
 
-* Basic knowledge of Java Generics.
+* [`ArrayUtility` API Documentation](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/index.html)
 * [Oracle: Generic Methods](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
 * [Oracle: Bounded Type Parameters](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html)
 

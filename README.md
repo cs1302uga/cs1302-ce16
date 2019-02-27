@@ -55,7 +55,7 @@ command depends on your present working directory), then please note that contex
    
 1. Inspect the `Student`, `Course`, and `Driver` classes provided under the `src` directory.
    As written, can you sort and find a maximal element of the `students` and `courses` arrays 
-   using the `sort` methods that the exercise had you inspect in the previous step?
+   using the methods that the exercise had you inspect in the previous step?
    Try it! For each of the four possibilities, indicate
    a guess in your notes as to whether or not it will work. Then, try each possibility
    independently to confirm your guess. 
@@ -72,12 +72,19 @@ command depends on your present working directory), then please note that contex
    | `Course`  |
    | `Student` |
    
-   What is meaningful? You need to make the code, documentation, and the printout clear such that 
-   anyone who is reading it can understand what is going on. The scenarios that you demo should not 
-   be trivial. In most cases, this will involve using some of your other list methods in conjunction
-   with the ones that are requred below.
+   **What is "a meaningful way"?** You need to make the code, documentation, and the printout clear such that 
+   anyone who is reading it can understand what is going on.
+
+1. Stage and commit all changes.
+
+**CHECKPOINT**
    
-1.    
+1. Examine the [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
+   and 
+   [`ArrayUtility.max(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/cs1302/util/ArrayUtility.html#max-T:A-java.util.Comparator-)
+   methods in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
+   In your notes, indicate the potential type arguments (replacements) for `T` for each method.
+
    
 **CHECKPOINT**
 

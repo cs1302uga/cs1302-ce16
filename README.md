@@ -1,14 +1,11 @@
 
 # cs1302-ce16 Gnarly to the Max
 
-> (Sends Dancing Hot Dog Meme)
-> Hotdogs are generic.
-> You have: bagel dogs, brat dogs, cheese dogs, chicago dogs, chili dogs, coney dogs, corn dogs (?), etc.
-> **--Dr. Supa' Mike, after a 12 hour work day.**
+> To my mind, the life of a lamb is no less precious than that of a human being.
+> **--Mahatma Gandhi**
 
-This class exercise continues coverage of generic methods, including some checkpoints related to
-upper bounds. 
-It also provides a small demonstration of branching and merging using Git.
+This class exercise explores functional interfaces and lambda expressions in
+conjunction with generic methods and interfaces.
 
 ## References and Prerequisites
 

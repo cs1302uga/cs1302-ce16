@@ -31,17 +31,17 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce16` directory that was just created and look around. There should be
-   multiple Java files contained within the directory structure. To see a listing of all of the 
-   files under the `src` subdirectory, use the `find` command as follows:
+   multiple files contained within the directory structure. To see a listing of the files needed 
+   for this exercise, execute the find command on the `lib` and `src` subdirectories as follows:
    
    ```
    $ find src
+   $ find lib
    ```
 
 ### Exercise Steps
 
-1. There is a `cs1302-ce16.jar` in the `lib` subdirectory. 
-   The API documentation for the compiled code contained in this
+1. The API documentation for the compiled code contained in the `cs1302-ce16.jar`
    file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/index.html).
 
 1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
@@ -51,28 +51,28 @@ command depends on your present working directory), then please note that contex
    In your notes, indicate the potential type arguments (replacements) for `T` for each method.
    
 1. Inspect the `Student`, `Course`, and `Driver` classes provided under the `src` directory.
-   As written, can you sort and find a maximal element of the `students` and `courses` arrays 
-   using the methods that the exercise had you inspect in the previous step?
-   Try it! For each of the four possibilities, indicate
+   Let's try to sort and find a maximal element of the `students` and `courses` arrays 
+   declared in `Driver` using the two methods you inspected in the previous step.
+   But first, for each of the four possibilities in the table below, indicate
    a guess in your notes as to whether or not it will work. Then, try each possibility
    independently to confirm your guess. 
    
    * If a possiblility **does work**, then add code to the `Driver` class that demos how it 
-     works in a meaningful way. 
-   * If a possiblility **does NOT work**, then note why. 
+     works in a meaningful way. What is "a meaningful way"? You need to make the code, 
+     documentation, and the printout clear such that anyone who is reading it can understand 
+     what is going on. Simply calling the method with no output and showing that it compiles
+     is not sufficient.
+
+   * If a possiblility **does NOT work**, then note why it doesn't work. 
    
-   Here is a table to help you keep track of the
-   different combinations.
+   Here is a table to help you keep track of the different combinations.
    
    | Class     | `sort(T[])` | `max(T[])` |
    |-----------|-------------|------------|
    | `Course`  |
    | `Student` |
    
-   **What is "a meaningful way"?** You need to make the code, documentation, and the printout clear such that 
-   anyone who is reading it can understand what is going on.
-
-1. Stage and commit all changes.
+1. Stage and commit all changes you made for this checkpoint.
 
 **CHECKPOINT**
    
@@ -94,10 +94,12 @@ command depends on your present working directory), then please note that contex
    call to `sort` in the driver should use an objet of this class for its
    comparator.
    
-1. Stage and commit all changes.
+1. Stage and commit all changes you made for this checkpoint.
 
 **CHECKPOINT**
    
+1. "Flex your lambda muscles" 💪💪💪
+
 1. Creating a separate comparator class is definitely useful if the comparator logic is
    complicated and/or if you plan to use the comparator often. However, if the logic is
    simple, then lambda expressions are preferrable because they allow you to focus on the
@@ -106,15 +108,16 @@ command depends on your present working directory), then please note that contex
    
 1. Now, without modifying the `Student` class, update the `Driver` class to clearly 
    demo the following using lambda expressions (please stage and commit after each):
-   1. Find and print the max `Student` in the `students` array according to GPA.
-   1. Add references to `Course` objects to the `courses` array with different `prefix` values, then 
-      sort the `courses` array by `prefix`.
+   1. Add references to `Course` objects to the `courses` array with different `prefix` values (i.e. 
+      create new objects that have prefixes other than "CSCI" and add them to the array), then sort 
+      the `courses` array by `prefix`.
    1. Take the `courses` array sorted in the previous sub-step and sort them by `number`.
+   1. Find and print the max `Student` in the `students` array according to GPA.
    1. Find and print the max `Student` in the `students` array according to the second
       character in their name.
    1. Something cool / interesting that hasn't been mentioned.
    
-1. Stage and commit all changes.
+1. Stage and commit all changes you made for this checkpoint.
 
 **CHECKPOINT**
 

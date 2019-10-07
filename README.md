@@ -1,6 +1,8 @@
 
 # cs1302-ce16 Gnarly to the Max
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 > To my mind, the life of a *lambda* is no less precious than that of a human being.
 > **--Dr. Supa' Mike, trying to quote Mahatma Gandhi.**
 

@@ -133,7 +133,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return String.format("Person(id = %d; name = %s; gpa = %.2f; standing = %s",
+        return String.format("Person(id = %d; name = %s; gpa = %.2f; standing = %s)",
                              id,
                              name,
                              gpa,

@@ -131,5 +131,14 @@ public class Student {
         } // if
     } // checkGPA
 
+    @Override
+    public String toString() {
+        return String.format("Person(id = %d; name = %s; gpa = %.2f; standing = %s",
+                             id,
+                             name,
+                             gpa,
+                             computeStanding());
+    } // toString
+    
 } // Student
 

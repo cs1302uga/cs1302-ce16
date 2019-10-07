@@ -13,9 +13,9 @@ public class Driver {
     public static void main(String[] args) {
         Student[] students = new Student[] {
             new Student(810_105_999, "Brad", 2.1),
-            new Student(810_105_999, "Mike", 4.0),
-            new Student(810_105_999, "Sally", 3.1),
-            new Student(810_105_999, "Joe", 1.1),
+            new Student(810_106_999, "Mike", 4.0),
+            new Student(810_107_999, "Sally", 3.1),
+            new Student(811_108_999, "Joe", 1.1),
         };
 
         Course[] courses = new Course[] {

@@ -123,8 +123,6 @@ public class Course implements Comparable<Course>{
         this.title = title;
     } // setTitle
 
-
-    
    /**
     * Compares this {@code Course} object to the specified course. This method returns: 
     * {@code 0} if the {@code crn} values are the same, 
@@ -136,8 +134,17 @@ public class Course implements Comparable<Course>{
     */
     @Override
     public int compareTo(Course anotherCourse) {
-        return this.crn-anotherCourse.crn;
+        return this.crn - anotherCourse.crn;
     } // compareTo
+    
+    @Override
+    public String toString() {
+        return String.format("Course(crn = %d; prefix = %s; number = %d; title = %s)",
+                             crn,
+                             prefix,
+                             number,
+                             title);
+    } // toString
         
 } // Course
 

@@ -1,5 +1,5 @@
 
-# cs1302-ce16 Gnarly to the Max
+# cs1302-ce16 Gnarly to the Max | cs1302-demo (lambdas)
 
 ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
  ![Approved for: Live Code](https://img.shields.io/badge/Approved%20for-Live%20Code-red)

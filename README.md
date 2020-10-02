@@ -1,8 +1,7 @@
 
 # cs1302-ce16 Gnarly to the Max | cs1302-demo (lambdas)
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
- ![Approved for: Live Code](https://img.shields.io/badge/Approved%20for-Live%20Code-red)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 > To my mind, the life of a *lambda* is no less precious than that of a human being.
 > **--Dr. Supa' Mike, trying to quote Mahatma Gandhi.**
@@ -19,15 +18,17 @@ conjunction with generic methods and interfaces.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce16`:
+### Checkpoint 1 Steps - Getting Started
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce16`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce16.git
@@ -41,8 +42,6 @@ command depends on your present working directory), then please note that contex
    $ find src
    $ find lib
    ```
-
-### Exercise Steps
 
 1. The API documentation for the compiled code contained in the `cs1302-ce16.jar`
    file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/index.html).
@@ -75,10 +74,16 @@ command depends on your present working directory), then please note that contex
    | `Course`  |
    | `Student` |
    
-1. Stage and commit all changes you made for this checkpoint.
+1. Stage and commit all changes you made for this checkpoint. Be sure to include a good log message.
 
-**CHECKPOINT**
-   
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
+
 1. Examine the [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
    and 
    [`ArrayUtility.max(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce16-api/cs1302/util/ArrayUtility.html#max-T:A-java.util.Comparator-)
@@ -99,8 +104,14 @@ command depends on your present working directory), then please note that contex
    
 1. Stage and commit all changes you made for this checkpoint.
 
-**CHECKPOINT**
-   
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
+
 1. "Flex your lambda muscles" 💪💪💪
 
 1. Creating a separate comparator class is definitely useful if the comparator logic is
@@ -122,8 +133,51 @@ command depends on your present working directory), then please note that contex
    
 1. Stage and commit all changes you made for this checkpoint.
 
-**CHECKPOINT**
+<hr/>
 
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce16`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. If you created the API documentation website, include the full link to the site.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce16-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce16` (e.g., `cd ..` from `cs1302-ce16`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce16 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
